@@ -1,0 +1,4 @@
+type Mutation{
+    saveComputer( Computer : ComputerRequest): Computer
+    deleteComputer( id: ID ): Boolean
+}
